@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: white;
+    background-image: url('simpsons.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center; 
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 2.25rem;
+    text-shadow: 2px 2px #ff0000;
+}
+
+@font-face {
+    font-family: 'SimpsonFont';
+    src: url('Simpsonfont.woff') format('woff');
+  }
+
+  h1, p , button {
+    font-family: 'SimpsonFont', sans-serif; /* Use custom font with fallback to sans-serif */
+  }
+
+p {
+    font-size: 1.5rem;
+    word-wrap: normal;
+    text-shadow: 2px 2px white;
+}
+
+button {
+    background-color: green;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* Make button take up entire width */
+    font-size: 24px;
+    margin: 20px auto; /* Adjust margin for spacing */
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: yellow; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .container {
+    width: 500px; /* Adjust width as needed */
+    border: 2px solid black; /* Example border style */
+    border-radius: 20px;
+    padding: 10px; /* Example padding */
+    /* Centering the container */
+    position: absolute;
+    top: 65%; /* Adjust this value to position the container lower */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    box-shadow: 0, 10px, 10px, 10px, rgba(0,0,0,0.2);
+  }
