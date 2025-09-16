@@ -1,13 +1,12 @@
 async function newQuote() {
   try {
-    // Use CORS proxy to bypass CORS restrictions
-    const response = await fetch(
-      "https://corsproxy.io/?https://thesimpsonsquoteapi.glitch.me/quotes"
-    );
+    // Fetch quotes from local JSON file
+    const response = await fetch("simpsons.json");
     const data = await response.json();
 
-    // Assuming the API returns an array of quotes, we'll take the first one
-    const quote = data[0];
+    // Get a random quote from the array
+    const randomIndex = Math.floor(Math.random() * data.length);
+    const quote = data[randomIndex];
 
     // Update the HTML content with the fetched quote
     const quoteDisplay = document.getElementById("quoteDisplay");
@@ -18,6 +17,7 @@ async function newQuote() {
     characterImage.src = quote.image;
     characterImage.style.width = "200px";
     characterImage.style.height = "auto";
+    characterImage.alt = quote.character;
     quoteDisplay.appendChild(characterImage);
 
     // Create and append the "Inspire Me Again" button
@@ -29,6 +29,6 @@ async function newQuote() {
     console.error("Error fetching quote:", error);
     const quoteDisplay = document.getElementById("quoteDisplay");
     quoteDisplay.innerHTML =
-      "<p>Failed to fetch quote due to CORS or network error. Please try again later.</p>";
+      "<p>Failed to fetch quote. Please try again later.</p>";
   }
 }

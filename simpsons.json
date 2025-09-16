@@ -1,11 +1,62 @@
 [
-    {
-     "quote": "Shoplifting is a victimless crime, like punching someone in the dark.",
-     "character": "Nelson Muntz",
-     "image" : "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FNelsonMuntz.png?1497567511185",
-     "characterDirection" : "Left"
-    }
-  ]
-   
-  
-  https://thesimpsonsquoteapi.glitch.me/quotes
+  {
+    "quote": "Shoplifting is a victimless crime, like punching someone in the dark.",
+    "character": "Nelson Muntz",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FNelsonMuntz.png?1497567511185",
+    "characterDirection": "Left"
+  },
+  {
+    "quote": "D'oh!",
+    "character": "Homer Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939",
+    "characterDirection": "Right"
+  },
+  {
+    "quote": "Don't have a cow, man!",
+    "character": "Bart Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FBartSimpson.png?1497567511638",
+    "characterDirection": "Right"
+  },
+  {
+    "quote": "I'm Bart Simpson, who the hell are you?",
+    "character": "Bart Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FBartSimpson.png?1497567511638",
+    "characterDirection": "Right"
+  },
+  {
+    "quote": "Eat my shorts!",
+    "character": "Bart Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FBartSimpson.png?1497567511638",
+    "characterDirection": "Right"
+  },
+  {
+    "quote": "I'm not a bad guy! I work hard, and I love my kids. So why should I spend half my Sunday hearing about how I'm going to Hell?",
+    "character": "Homer Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939",
+    "characterDirection": "Right"
+  },
+  {
+    "quote": "I'm normally not a praying man, but if you're up there, please save me, Superman.",
+    "character": "Homer Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939",
+    "characterDirection": "Right"
+  },
+  {
+    "quote": "To alcohol! The cause of, and solution to, all of life's problems.",
+    "character": "Homer Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939",
+    "characterDirection": "Right"
+  },
+  {
+    "quote": "Marge, I'm going to the store. Want anything?",
+    "character": "Homer Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939",
+    "characterDirection": "Right"
+  },
+  {
+    "quote": "Lisa, if you don't like your job you don't strike. You just go in every day and do it really half-assed. That's the American way.",
+    "character": "Homer Simpson",
+    "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939",
+    "characterDirection": "Right"
+  }
+]
